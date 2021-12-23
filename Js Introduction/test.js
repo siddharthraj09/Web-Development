@@ -1,0 +1,1 @@
+console.log('hello my friend') //this funciton is used to print on the console
