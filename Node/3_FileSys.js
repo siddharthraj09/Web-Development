@@ -4,6 +4,7 @@
 // ****files****//
 
 const fs = require('fs')
+const path = require('path/posix')
 
 
 // //1. we will be reading writing updating and deleting files
@@ -76,9 +77,19 @@ const fs = require('fs')
 
 // readdirSync is a method which is used to check content inside a directory
 
-let folderpath = 'I:\\webDev\\Node\\myDirectory'
-let foldercontent = fs.readdirSync(folderpath)
-console.log("Directory Content   "+ foldercontent)
+// let folderpath = 'I:\\webDev\\Node\\myDirectory'
+// let foldercontent = fs.readdirSync(folderpath)
+// console.log("Directory Content   "+ foldercontent)
 
+let sourcePath='I:\\webDev\\Node\\myDirectory\\f1.txt'
 
+let destnationPath='I:\\webDev\\Node\\myDirectory2'
+
+let  toBEcopidFilename=path.basename(sourcePath)
+console.log(toBEcopidFilename)
+
+let destPath=path.join(destnationPath,toBEcopidFilename)
+console.log(destPath)
+
+fs.copyFileSync(sourcePath,destPath)
 
