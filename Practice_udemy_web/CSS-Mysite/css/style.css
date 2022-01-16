@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+
+}
+
+
+h1{
+    font-family: 'Sacramento', cursive,sans-serif;
+    margin-top: 0;
+    font-weight: 200px;
+    font-size:5.62rem;
+    margin-bottom: 0;
+    color: #66BFBF;
+    
+}
+h2{
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+
+}
+
+h3{
+    color: #66BFBF;
+    font-weight: normal;
+    
+}
+
+.top-container{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 120px;
+    
+   
+}
+
+
+
+.middle-container{
+    
+}
+
+.bottom-container{
+   
+}
+
+.bottom-cloud{
+    position:absolute;
+    left: 300px;
+    bottom: 400px;
+}
+
+.top-cloud{
+    position:absolute;
+    top: 100px;
+    right: 300px;
+}
+p{
+    line-height: 2;
+    font-size: 1.2rem;
+    color: #072227;    
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+
+}
+.web-development{
+    width: 20%;
+    float: left;
+    margin-right: 20px;
+}
+.chillies{
+    width: 20%;
+    float: right;
+    margin-left: 20px;
+}
+.intro{
+    width: 50%;
+    margin: auto;
+}
+.bottom-container{
+    background-color: #66BFBF;
+}
+
+.footer-link{
+    
+    
+}
