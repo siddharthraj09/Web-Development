@@ -57,6 +57,7 @@ footer{
         justify-content: center;
         text-align: center;
         font-size: 1.5rem;
+        padding-top: 50px;
   }
 
     h2{
@@ -70,4 +71,5 @@ footer{
     a:hover{
         color: orangered;
     }
+    
     
