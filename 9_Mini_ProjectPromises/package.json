@@ -1,0 +1,15 @@
+{
+  "name": "9_mini_projectpromises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cliResume.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.1"
+  }
+}
