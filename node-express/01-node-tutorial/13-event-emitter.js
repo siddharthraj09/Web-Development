@@ -1,6 +1,7 @@
 // get back the class
 // if want custom extend from class
 // otherwise just for emitting and handling events create instance
+//v]An event emitter is a pattern that listens to a named event, fires a callback, then emits that event with a value. 
 const EventEmitter = require('events')
 
 const customEmitter = new EventEmitter()

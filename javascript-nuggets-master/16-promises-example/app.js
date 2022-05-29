@@ -23,3 +23,5 @@ function addColor(time, selector, color) {
     }
   })
 }
+
+

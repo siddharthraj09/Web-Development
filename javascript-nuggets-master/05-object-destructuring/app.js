@@ -1,11 +1,11 @@
 // faster/easier way to access/unpack values from arrays
 
 const bob = {
-  first: 'bob',
-  last: 'sanders',
-  city: 'chicago',
+  first: "bob",
+  last: "sanders",
+  city: "chicago",
   siblings: {
-    sister: 'jane',
+    sister: "jane",
   },
 };
 const {
@@ -28,3 +28,4 @@ function printPerson(person) {
 }
 
 printPerson(bob);
+
